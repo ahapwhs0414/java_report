@@ -132,7 +132,7 @@ Spring Boot 기반 도형 겹침 판별 시스템
 ---
 
 ## 🔗 GitHub Repository
-👉 [https://github.com/본인아이디/저장소이름](https://github.com/ahapwhs0414/java_report)
+👉 [https://github.com/ahapwhs0414/java_report](https://github.com/ahapwhs0414/java_report)
 
 ---
 
