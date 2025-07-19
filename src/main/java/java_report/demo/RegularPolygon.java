@@ -115,6 +115,11 @@ public class RegularPolygon extends Shape {
             Point tmp = a; a = b; b = tmp;
         }
 
+        // 수평선분은 교차하지 않음
+        if (Math.abs(a.getY() - b.getY()) < 1e-12) {
+            return false;
+        }
+
         if (p.getY() == a.getY() || p.getY() == b.getY()) {
             p = new Point(p.getX(), p.getY() + 1e-10);
         }
